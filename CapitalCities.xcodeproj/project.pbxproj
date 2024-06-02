@@ -11,6 +11,7 @@
 		A9F6D1342C0BD21F008D5A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D1332C0BD21F008D5A41 /* ViewController.swift */; };
 		A9F6D1362C0BD221008D5A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F6D1352C0BD221008D5A41 /* Assets.xcassets */; };
 		A9F6D1392C0BD221008D5A41 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A9F6D1382C0BD221008D5A41 /* Base */; };
+		A9F6D1412C0BE610008D5A41 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F6D1402C0BE610008D5A41 /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		A9F6D1352C0BD221008D5A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F6D1382C0BD221008D5A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9F6D13A2C0BD221008D5A41 /* CapitalCities.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapitalCities.entitlements; sourceTree = "<group>"; };
+		A9F6D1402C0BE610008D5A41 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		A9F6D1422C0C2514008D5A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 		A9F6D1302C0BD21F008D5A41 /* CapitalCities */ = {
 			isa = PBXGroup;
 			children = (
+				A9F6D1422C0C2514008D5A41 /* Info.plist */,
+				A9F6D1402C0BE610008D5A41 /* Pin.swift */,
 				A9F6D1312C0BD21F008D5A41 /* AppDelegate.swift */,
 				A9F6D1332C0BD21F008D5A41 /* ViewController.swift */,
 				A9F6D1352C0BD221008D5A41 /* Assets.xcassets */,
@@ -131,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F6D1412C0BE610008D5A41 /* Pin.swift in Sources */,
 				A9F6D1342C0BD21F008D5A41 /* ViewController.swift in Sources */,
 				A9F6D1322C0BD21F008D5A41 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +286,7 @@
 				DEVELOPMENT_TEAM = WHKA3Q9GPE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapitalCities/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -307,6 +314,7 @@
 				DEVELOPMENT_TEAM = WHKA3Q9GPE;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CapitalCities/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
