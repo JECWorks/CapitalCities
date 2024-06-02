@@ -130,7 +130,21 @@ class ViewController: NSViewController, MKMapViewDelegate {
         Pin(title: "Oslo", coordinate: CLLocationCoordinate2D(latitude: 59.95, longitude: 10.75)),
         Pin(title: "Paris", coordinate: CLLocationCoordinate2D(latitude: 48.8567, longitude: 2.3508)),
         Pin(title: "Rome", coordinate: CLLocationCoordinate2D(latitude: 41.9, longitude: 12.5)),
-        Pin(title: "Washington DC", coordinate: CLLocationCoordinate2D(latitude: 38.895111, longitude: -77.036667)),
+        Pin(title: "Washington DC", coordinate: CLLocationCoordinate2D(latitude: 38.895111, longitude: -77.036667)),Pin(title: "Tokyo", coordinate: CLLocationCoordinate2D(latitude: 35.682839, longitude: 139.759455)),
+        Pin(title: "Moscow", coordinate: CLLocationCoordinate2D(latitude: 55.755826, longitude: 37.6173)),
+        Pin(title: "Beijing", coordinate: CLLocationCoordinate2D(latitude: 39.904202, longitude: 116.407394)),
+        Pin(title: "Berlin", coordinate: CLLocationCoordinate2D(latitude: 52.520007, longitude: 13.404954)),
+        Pin(title: "Canberra", coordinate: CLLocationCoordinate2D(latitude: -35.280937, longitude: 149.130009)),
+        Pin(title: "Brasília", coordinate: CLLocationCoordinate2D(latitude: -15.794229, longitude: -47.882166)),
+        Pin(title: "Ottawa", coordinate: CLLocationCoordinate2D(latitude: 45.421530, longitude: -75.697193)),
+        Pin(title: "New Delhi", coordinate: CLLocationCoordinate2D(latitude: 28.613939, longitude: 77.209021)),
+        Pin(title: "Cairo", coordinate: CLLocationCoordinate2D(latitude: 30.044420, longitude: 31.235712)),
+        Pin(title: "Madrid", coordinate: CLLocationCoordinate2D(latitude: 40.416775, longitude: -3.703790)),
+        Pin(title: "Buenos Aires", coordinate: CLLocationCoordinate2D(latitude: -34.603684, longitude: -58.381559)),
+        Pin(title: "Bangkok", coordinate: CLLocationCoordinate2D(latitude: 13.756331, longitude: 100.501762)),
+        Pin(title: "Riyadh", coordinate: CLLocationCoordinate2D(latitude: 24.713552, longitude: 46.675296)),
+        Pin(title: "Jerusalem", coordinate: CLLocationCoordinate2D(latitude: 31.768319, longitude: 35.213710)),
+        Pin(title: "Seoul", coordinate: CLLocationCoordinate2D(latitude: 37.566536, longitude: 126.977966)),
         ]
         
         // Start playing the game
